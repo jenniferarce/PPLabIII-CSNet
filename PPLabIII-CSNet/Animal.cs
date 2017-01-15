@@ -24,7 +24,10 @@ namespace PPLabIII_CSNet
 
         public override string ToString()
         {
-            return "Edad: "+ Edad;
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("Edad: "+ Edad);
+
+            return sb.ToString();
         }
     }
 }
