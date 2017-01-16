@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Animal.cs" />
     <Compile Include="eTipoDeMascota.cs" />
+    <Compile Include="eTipoOrdenamiento.cs" />
     <Compile Include="frmAnimal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +76,18 @@
     <Compile Include="frmMascota.Designer.cs">
       <DependentUpon>frmMascota.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMostrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMostrar.Designer.cs">
+      <DependentUpon>frmMostrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Mascota.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -85,6 +98,12 @@
     <EmbeddedResource Include="frmMascota.resx">
       <DependentUpon>frmMascota.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMostrar.resx">
+      <DependentUpon>frmMostrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -17,6 +17,14 @@ namespace PPLabIII_CSNet
         {
             InitializeComponent();
         }
+        public frmMascota(Mascota unaMascota)
+            : this()
+        {
+            txtEdad.Text = unaMascota.Edad.ToString();
+            txtNombre.Text = unaMascota.Nombre;
+
+            cmbTipoDeMascota.SelectedItem = unaMascota.TipoDeMascota;
+        }//Para modificacion y baja
 
         private void frmMascota_Load(object sender, EventArgs e)
         {

@@ -30,15 +30,15 @@ namespace PPLabIII_CSNet
             _tipoDeMascota = tipo;
         }
 
-        public int OrdenarPorEdad(Mascota m1, Mascota m2)
+        public static int OrdenarPorEdad(Mascota m1, Mascota m2)
         {
             return m1.Edad.CompareTo(m2.Edad);
         }
-        public int OrdenarPorNombre(Mascota m1, Mascota m2)
+        public static int OrdenarPorNombre(Mascota m1, Mascota m2)
         {
             return m1.Nombre.CompareTo(m2.Nombre);
         }
-        public int OrdenarPorTipo(Mascota m1, Mascota m2)
+        public static int OrdenarPorTipo(Mascota m1, Mascota m2)
         {
             return m1.TipoDeMascota.CompareTo(m2.TipoDeMascota);
         }
