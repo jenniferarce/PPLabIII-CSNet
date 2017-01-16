@@ -32,15 +32,15 @@ namespace PPLabIII_CSNet
 
         public int OrdenarPorEdad(Mascota m1, Mascota m2)
         {
-            return 0;
+            return m1.Edad.CompareTo(m2.Edad);
         }
         public int OrdenarPorNombre(Mascota m1, Mascota m2)
         {
-            return 0;
+            return m1.Nombre.CompareTo(m2.Nombre);
         }
         public int OrdenarPorTipo(Mascota m1, Mascota m2)
         {
-            return 0;
+            return m1.TipoDeMascota.CompareTo(m2.TipoDeMascota);
         }
 
         public override string ToString()
